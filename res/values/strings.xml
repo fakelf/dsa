@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fda</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_waiter">Waiter</string>
+    <string name="title_activity_manager">Manager</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_men">Men</string>
+    <string name="title_activity_sanguo">Sanguo</string>
+
+</resources>

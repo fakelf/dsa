@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg3">
+
+   <LinearLayout 
+       android:id="@+id/ab1"
+       android:layout_alignParentTop="true"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="40dp">
+      
+       <Button
+           android:layout_width="40dp"
+           android:layout_height="match_parent"
+           android:background="@drawable/bbutton"
+           android:onClick="on1" />
+       
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical"
+           android:text="订单详情(单击取消)"
+           android:textColor="#000000" />
+
+   </LinearLayout>
+   <LinearLayout 
+       android:id="@+id/ll1"
+       android:layout_below="@id/ab1"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:orientation="horizontal"
+       >
+   <TextView
+      	android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="菜名"
+		android:layout_weight="0.5"
+		android:gravity="center_vertical"
+		android:layout_marginLeft="15dp"
+       />
+   <TextView
+      	android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="价格"
+		android:gravity="center_vertical"
+		android:layout_marginRight="15dp"
+		android:layout_weight="0.5"
+		android:textStyle="italic"/>
+  
+   </LinearLayout>
+   <ImageView 
+        android:id="@+id/ll3"
+         android:layout_below="@id/ll1"
+         android:layout_height="1dp"
+         android:layout_width="match_parent"
+         android:background="#bbbbbb"
+         android:layout_marginRight="15dp"
+         android:layout_marginLeft="15dp"
+        />
+   
+ <RelativeLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#bbbbbb"
+            android:onClick="onb5"
+            android:text="结算"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/bottom1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="wegfdfgr"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:textStyle="italic"
+             />
+    </RelativeLayout>
+   
+
+   <LinearLayout
+        android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_below="@id/ll1"
+          android:layout_above="@id/ll2"
+          android:orientation="horizontal"
+       >
+   
+     <ListView
+         android:id="@+id/lvv"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />
+       
+   </LinearLayout>
+
+   
+   
+</RelativeLayout>

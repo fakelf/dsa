@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg1"
+    >
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="82dp"
+         android:layout_height="75dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_x="162dp"
+         android:background="#00000000"
+         android:layout_y="433dp"
+         android:onClick="onk" />
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="75dp"
+         android:layout_height="75dp"
+         android:layout_x="76dp"
+         android:layout_y="437dp"
+         android:background="#00000000"
+         android:onClick="onmpstop" />
+
+</AbsoluteLayout>
